@@ -1,0 +1,126 @@
+.footer {
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &--container {
+            display: flex;
+            align-items: baseline;
+        }
+}
+.logo__footer--thumb {
+    margin-right: 70px;
+}
+.address__text,
+.address__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+}
+
+.address__text {
+    margin-bottom: 9px;
+    color: $white;
+}
+
+.address__link {
+    display: inline-block;
+
+    color: rgba(255, 255, 255, 0.6);
+
+    transition: color 250ms $time-changes;
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+        outline: transparent;
+        }
+}
+
+.address__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+
+
+.join {
+    margin-right: auto;
+}
+
+.join__text {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white;
+}
+
+.social-list__item--bgc {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    ;
+}
+
+/* footer form  */
+
+.subscribe__text {
+    margin-right: 12px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white;
+}
+
+.subscribe__field {
+    min-width: 358px;
+    min-height: 50px;
+
+    padding-left: 16px;
+    margin-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+    font-size: 16px;
+    line-height: calc(20/16);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    &:focus-within {
+            outline: transparent;
+        }
+
+}
+
+
+
+.subscribe::placeholder {
+    font-size: 16px;
+    line-height: calc(20/16);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe--thumb {
+    display: flex;
+    align-items: flex-end;
+}
+
+.button--icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}

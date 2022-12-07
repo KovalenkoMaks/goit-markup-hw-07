@@ -1,0 +1,31 @@
+.clients-list {
+    @extend %flexCentered;
+    gap: 30px;
+}
+
+.clients__item {
+    width: 170px;
+    height: 92px;
+}
+
+.clients__link {
+    @extend %flexCentered;
+
+    width: 100%;
+    height: 100%;
+    color: $link-text;
+    border: 1px solid $link-text;
+    border-radius: 4px;
+
+    transition: color 250ms $time-changes, border-color 250ms $time-changes;
+
+    &:hover,
+    &:focus {
+            color: $accent-color;
+            outline: transparent;
+            border-color: $accent-color;
+        }
+}
+.clients__icon {
+    fill: currentColor;
+}
