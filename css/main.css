@@ -268,6 +268,12 @@ ul {
   padding: 0;
 }
 
+.callback__checkbox, .modal-button, .clients__link, .clients-list, .social-list__item, .social-list, .services-list--decor, .feature__card, .hero, .button-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .icon {
   fill: currentColor;
 }
@@ -312,12 +318,6 @@ body {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.callback__checkbox, .modal-button, .clients__link, .clients-list, .social-list__item, .social-list, .services-list--decor, .feature__card, .hero, .button-main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .logo {
