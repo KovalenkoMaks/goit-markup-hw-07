@@ -292,7 +292,7 @@ h2 {
   fill: currentColor;
 }
 
-.container, .footer--container {
+.container, .footer__container {
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
@@ -673,7 +673,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer--container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
