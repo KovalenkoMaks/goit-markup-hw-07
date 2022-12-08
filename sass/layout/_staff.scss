@@ -1,8 +1,8 @@
-.section-bgc {
+.staff {
     @extend %section;
     background-color: #f5f4fa;
 }
-.staff-list {
+.staff__list {
     display: flex;
     gap: 30px;
 
@@ -10,7 +10,7 @@
             margin-right: 30px;
         }
 }
-.staff-list__item {
+.staff__item {
     background-color: $white;
     min-width: 270px;
     min-height: 368px;
@@ -18,11 +18,11 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.staff-list__description {
+.staff__description {
     padding: 30px 32px;
 }
 
-.staff-list__title {
+.staff__title {
     margin-bottom: 10px;
     color: $title-text-color;
     font-weight: 500;
@@ -32,7 +32,7 @@
     text-align: center;
 }
 
-.staff-list__text {
+.staff__text {
     margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;

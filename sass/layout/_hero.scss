@@ -30,5 +30,6 @@
 }
 
 .hero__button {
+    @extend .button-main;
     margin-top: 30px;
 }

@@ -47,4 +47,9 @@
         }
 }
 
-
+.button__icon {
+    @extend .button-main;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
