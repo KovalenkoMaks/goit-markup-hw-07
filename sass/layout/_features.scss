@@ -1,3 +1,6 @@
+.feature {
+    @extend %section;
+}
 .feature__list {
     display: flex;
     gap: 30px;

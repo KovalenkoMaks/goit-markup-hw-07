@@ -1,3 +1,11 @@
+h2 {
+    margin-bottom: 50px;
+        color: $title-text-color;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: center;
+}
 .icon {
     fill: currentColor;
 
@@ -18,20 +26,14 @@ body {
     color: $primary-text-color;
     font-family: Roboto, sans-serif;
 }
-
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.title {
-    margin-bottom: 50px;
-    color: $title-text-color;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: center;
-}
+// .title {
+//     margin-bottom: 50px;
+//     color: $title-text-color;
+//     font-size: 36px;
+//     line-height: 1.17;
+//     letter-spacing: 0.03em;
+//     text-align: center;
+// }
 
 .hidden {
     position: absolute;

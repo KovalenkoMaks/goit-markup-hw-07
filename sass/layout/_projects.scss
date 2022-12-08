@@ -1,3 +1,6 @@
+.portfolio {
+    @extend %section;
+}
 .buttons-list {
     display: flex;
     justify-content: center;
@@ -27,7 +30,7 @@
 
 
 
-.projects-list--thumb {
+.projects-list__thumb {
     position: relative;
     overflow: hidden;
 

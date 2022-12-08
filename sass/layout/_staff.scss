@@ -1,4 +1,5 @@
 .section-bgc {
+    @extend %section;
     background-color: #f5f4fa;
 }
 .staff-list {
