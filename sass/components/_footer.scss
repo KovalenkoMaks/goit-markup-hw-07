@@ -3,13 +3,13 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
-    &__container {
-        @extend .container;
-            display: flex;
-            align-items: baseline;
-        }
+   
 }
-
+.footer__container {
+      @extend .container;
+      display: flex;
+      align-items: baseline;
+  }
 .footer__thumb {
     margin-right: 70px;
 }
